@@ -1,0 +1,5 @@
+385. Keep in mind context isn't always better than redux. Redux stores distribute data to components, centralizes data in a store, and provides a mechanism for changing data in stores using action creators and reducers wired all together through connect function and mapStateToProps. 
+So we explore the differences with a nuanced understanding by trying to use context instead of redux in this translate project.
+1. For some reason, onLanguageSelect from a helper function in App.js to a full blown component.
+
+386. code on viewing the material is on the same page as code that deals with business logic (state management). I don't think this is a bad thing but since Stephen says it is with larger files I guess I can understand using Redux. Also, business logic is easier split up into actions, reducers, and components in Redux which naturally lends itself to evenly spreading out code in pages.
